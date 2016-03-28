@@ -1,4 +1,4 @@
-package sample.wjj.rxandroidglidedemo;
+package sample.wjj.rxandroidglidedemo.Adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -13,6 +13,7 @@ import com.bumptech.glide.Glide;
 import java.util.List;
 
 import sample.wjj.rxandroidglidedemo.OBJ.TestOBJ;
+import sample.wjj.rxandroidglidedemo.R;
 
 /**
  * Created by jiajiewang on 16/3/25.

@@ -1,4 +1,4 @@
-package sample.wjj.rxandroidglidedemo;
+package sample.wjj.rxandroidglidedemo.Widget;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
