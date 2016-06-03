@@ -1,5 +1,6 @@
 package sample.wjj.rxandroidglidedemo;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -29,6 +30,7 @@ import sample.wjj.rxandroidglidedemo.Widget.StatusBarCompat;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
     Toolbar toolBar;
     RecyclerView recycleView;
     DataAdapter dataAdapter;
@@ -186,14 +188,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                    }
 //                });
 
-                String aa[]={"1","2","3","4","5"};
-                Observable btn2Observable= Observable.from(aa);
+                String aa[] = {"1", "2", "3", "4", "5"};
+                Observable btn2Observable = Observable.from(aa);
                 btn2Observable.subscribe(new Action1() {
                     @Override
                     public void call(Object o) {
-                             LogUtils.d("自动计算到 " + o);
+                        LogUtils.d("自动计算到 " + o);
                     }
                 });
+                //页面跳转
+                Intent i = new Intent(MainActivity.this, TwoActivity.class);
+                startActivity(i);
+
                 break;
         }
     }
