@@ -1,4 +1,4 @@
-package sample.wjj.rxandroidglidedemo.OBJ;
+package sample.wjj.rxandroidglidedemo.bean;
 
 /**
  * Created by jiajiewang on 16/6/3.

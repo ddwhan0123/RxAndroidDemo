@@ -1,4 +1,4 @@
-package sample.wjj.rxandroidglidedemo.Config;
+package sample.wjj.rxandroidglidedemo.config;
 
 import android.content.Context;
 

@@ -1,4 +1,4 @@
-package sample.wjj.rxandroidglidedemo.Tools;
+package sample.wjj.rxandroidglidedemo.tools;
 
 import com.google.gson.Gson;
 

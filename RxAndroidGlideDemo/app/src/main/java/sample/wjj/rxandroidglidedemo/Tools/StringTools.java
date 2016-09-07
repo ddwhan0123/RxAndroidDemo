@@ -1,4 +1,4 @@
-package sample.wjj.rxandroidglidedemo.Tools;
+package sample.wjj.rxandroidglidedemo.tools;
 
 /**
  * Created by jiajiewang on 16/6/3.
